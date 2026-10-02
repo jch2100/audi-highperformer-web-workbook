@@ -784,7 +784,8 @@ code {
   body { font-size: calc(18px * var(--fs)); }
   .site-title { text-align: center; }
   .tabs { justify-content: center; padding: 10px 24px 12px; }
-  .tabs-wrap::after { display: none; }
+  .tabs-wrap.is-scrollable .tabs { justify-content: flex-start; }
+  .tabs-wrap:not(.is-scrollable)::after { display: none; }
   .day { padding: 0 24px; }
   .hero { padding: 44px 44px 48px; border-radius: 32px; }
   .hero .hero-title { font-size: 2.35rem; }
