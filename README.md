@@ -9,7 +9,7 @@
 1. 원고 폴더 `2026-10_audi-highperformer/draft/web_workbook_integrated/content/`의 Markdown을 수정합니다.
 2. `build-web-workbook` 검증으로 `dist/index.html`을 다시 만듭니다.
 3. `qa/package_crm_downloads.py`로 실습 다운로드 파일을 준비합니다. 검증된 `dist/index.html`과 `dist/downloads/`를 교안 폴더의 `output/Audi_High_Performer_통합_웹교재/`와 이 저장소에 복사합니다.
-4. 공개 전 제목, 21개 탭, 30개 이미지, 두 ChatGPT 프로젝트 링크, 세 실습 파일 다운로드, 복사 버튼, 휴대전화 화면을 확인합니다.
+4. 공개 전 제목, 22개 탭, 35개 이미지, 두 ChatGPT 프로젝트 링크, 세 실습 파일 다운로드, 복사 버튼, 휴대전화 화면을 확인합니다. 고객관리 폴더 생성 전에 ‘3·플러그인 연결’에서 설치·Google 계정 연결·Work 채팅 선택을 준비합니다.
 5. `main` 브랜치에 커밋하고 GitHub로 올리면 GitHub Pages가 자동으로 새 버전을 게시합니다.
 
 수강생에게는 GitHub Pages 주소만 전달합니다. ChatGPT 프로젝트 링크의 접근 권한은 별도로 확인해야 합니다.
