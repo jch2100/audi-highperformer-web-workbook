@@ -1318,8 +1318,8 @@ code {
 <tbody>
 <tr>
 <td>1. 환경 설정</td>
-<td>Google Drive 플러그인을 연결하고, 프로젝트·Drive 폴더를 만든 뒤 제공 엑셀·소스·지침을 준비합니다.</td>
-<td>계정 연결과 폴더·엑셀·소스·지침을 직접 확인했습니다.</td>
+<td>Google Drive 플러그인을 연결하고, 프로젝트·Drive 폴더를 만든 뒤 제공 안내 TXT 두 개·엑셀·소스·지침을 준비합니다.</td>
+<td>계정 연결과 폴더·안내 파일·엑셀·소스·지침을 직접 확인했습니다.</td>
 </tr>
 <tr>
 <td>2. 첫 고객 기록</td>
@@ -1489,9 +1489,11 @@ code {
     </article>
   </section>
   <section class="day" id="day-13" role="tabpanel" aria-labelledby="tab-day-13"
-           data-tab="3·폴더 만들기" data-minutes="2" hidden>
+           data-tab="3·폴더 만들기" data-minutes="3" hidden>
     <article class="prose">
-<section class="hero"><p class="eyebrow">1단계 · 환경 설정 ①<span class="readtime">약 2분</span></p><h1 class="hero-title">폴더 생성을 요청한 뒤 Drive에 직접 들어갑니다</h1></section>
+<section class="hero"><p class="eyebrow">1단계 · 환경 설정 ①<span class="readtime">약 3분</span></p><h1 class="hero-title">폴더 생성을 요청한 뒤 Drive에 직접 들어갑니다</h1></section>
+
+<nav class="toc"><p class="toc-label">이 장의 목차</p><ol><li class="toc-l2"><a href="#day-13-s1">직접 확인하기</a></li><li class="toc-l2"><a href="#day-13-s2">제공된 안내 파일 두 개 넣기</a></li></ol></nav>
 
 <p>앞의 <strong>3·플러그인 연결</strong>에서 사용할 Google 계정을 연결하고 실제 폴더 읽기를 확인한 뒤 시작합니다. 새 프로젝트의 새 채팅에서도 Google Drive를 다시 선택합니다.</p>
 <ol>
@@ -1503,14 +1505,43 @@ code {
 <p>누를 곳: Google Drive 플러그인. 확인할 것: 입력창에 Google Drive 표시가 있습니다. 글자로 <code>@Google Drive</code>만 쓰는 것과 다릅니다. 아래 요청을 입력합니다.</p>
 <div class="prompt"><div class="prompt-head"><span class="prompt-label">처음 한 번: 내 고객관리 폴더 만들기</span><button class="copy-btn" type="button">복사</button></div><pre class="prompt-body">내 Google Drive에 나 혼자 사용할 `내_고객관리` 폴더가 있는지 먼저 확인해줘. 같은 이름이 있으면 덮어쓰거나 중복 생성하지 말고 알려줘. 없으면 새로 만들고 그 안에 `01_Raw`, `02_Customer_Profile`, `03_Customer_Asset_DB` 폴더를 만들어줘. 공유 설정은 바꾸지 마.
 
-상위 폴더에는 `README_먼저읽기.txt`와 `고객_프로파일_양식.txt`를 만들어줘. README에는 각 폴더의 역할과 01→02→03 확인법, 파일만 올리면 자동 처리되지 않는다는 점을 적어줘. 프로파일 양식은 상단 최신 상황 요약과 하단 날짜별 원문 기록으로 해줘.
+지금은 폴더만 만들어줘. 안내 TXT 두 파일과 엑셀은 교재에서 제공하는 파일을 내가 직접 올릴 거야. 안내 파일·양식·엑셀이나 고객 예시는 만들지 마.
 
-엑셀은 내가 제공된 `Customer_Asset_DB.xlsx`를 직접 03에 올릴 거야. 지금은 엑셀이나 고객 예시를 만들지 마. 작업 후 실제 Drive의 생성 상태를 다시 읽어 상위 폴더와 하위 폴더 링크, 성공·실패 항목을 알려줘.</pre></div>
+작업 후 실제 Drive의 생성 상태를 다시 읽어 상위 폴더와 하위 폴더 링크, 성공·실패 항목을 알려줘.</pre></div>
 <h2 id="day-13-s1">직접 확인하기</h2>
 <p>AI가 준 <strong>상위 폴더 링크</strong>를 눌러 Google Drive로 갑니다. <code>01_Raw</code>, <code>02_Customer_Profile</code>, <code>03_Customer_Asset_DB</code> 세 폴더를 눈으로 확인하고 상위 폴더 링크를 복사합니다. 이 단계에서는 03이 비어 있어도 정상입니다. 다음 탭에서 엑셀을 직접 올립니다.</p>
 <p>작업 승인 창이 나타나면 요청한 폴더 생성 작업인지 확인한 뒤 허용합니다. 오류가 나면 같은 명령을 반복 전송하기 전에 Drive에 어디까지 만들어졌는지 봅니다.</p>
+<h2 id="day-13-s2">제공된 안내 파일 두 개 넣기</h2>
+<p>아래 두 파일은 <strong>강사가 제공하는 완성된 안내와 빈 참고 양식</strong>입니다. AI에게 새로 만들라고 하거나 수강생이 빈칸을 직접 채우지 않습니다.</p>
+<div class="table-wrap"><table><thead>
+<tr>
+<th>받을 파일</th>
+<th>내용</th>
+<th>넣을 위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="downloads/README_먼저읽기.txt" download="README_먼저읽기.txt">README 먼저 읽기 받기</a></td>
+<td>폴더 역할, 사용 순서, 원문·중복·저장 확인 원칙</td>
+<td>내_고객관리 상위 폴더</td>
+</tr>
+<tr>
+<td><a href="downloads/고객_프로파일_양식.txt" download="고객_프로파일_양식.txt">고객 프로파일 양식 받기</a></td>
+<td>고객 식별, 상단 최신 요약, 하단 날짜·출처·원문 기록</td>
+<td>내_고객관리 상위 폴더</td>
+</tr>
+</tbody>
+</table></div><ol>
+<li>두 링크를 눌러 파일을 저장합니다. 노트북은 다운로드 폴더에서 찾습니다. 휴대전화에서 글만 열리면 공유·저장 메뉴로 TXT 파일을 저장합니다.</li>
+<li>Drive의 <strong>내_고객관리 상위 폴더</strong>로 돌아옵니다. 01·02·03 안으로 들어가지 않습니다.</li>
+<li><code>신규(새로 만들기) → 파일 업로드</code>를 눌러 두 TXT를 올립니다. 같은 이름이 이미 있으면 다시 올리지 말고 기존 파일을 먼저 확인합니다.</li>
+<li>파일을 직접 열어 README의 폴더 역할과 양식의 <strong>현재 상황 한눈에 보기 / 접촉·대화 원문 기록</strong>을 확인합니다.</li>
+</ol>
+<p><strong>끝났다는 표시:</strong> 상위 폴더에 하위 폴더 세 개와 TXT 두 개가 나란히 있습니다. 양식은 고객 기록이 아니므로 02에 넣지 않습니다. 실제 고객별 TXT는 첫 고객 실습에서 AI가 만듭니다. 엑셀은 다음 탭에서 03에 올립니다.</p>
 <ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> Drive를 직접 열어 내 상위 폴더와 세 하위 폴더를 확인했습니다.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 상위 폴더에 <code>README_먼저읽기.txt</code>와 <code>고객_프로파일_양식.txt</code>를 올리고 열어 확인했습니다.</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 상위 폴더 링크를 복사했습니다.</li>
 </ul>
 
@@ -1547,9 +1578,9 @@ code {
     </article>
   </section>
   <section class="day" id="day-15" role="tabpanel" aria-labelledby="tab-day-15"
-           data-tab="3·소스와 지침" data-minutes="3" hidden>
+           data-tab="3·소스와 지침" data-minutes="4" hidden>
     <article class="prose">
-<section class="hero"><p class="eyebrow">1단계 · 환경 설정 ③<span class="readtime">약 3분</span></p><h1 class="hero-title">소스와 지침까지 넣으면 환경 설정이 끝납니다</h1></section>
+<section class="hero"><p class="eyebrow">1단계 · 환경 설정 ③<span class="readtime">약 4분</span></p><h1 class="hero-title">소스와 지침까지 넣으면 환경 설정이 끝납니다</h1></section>
 
 <nav class="toc"><p class="toc-label">이 장의 목차</p><ol><li class="toc-l2"><a href="#day-15-s1">A. 상위 폴더를 소스에 연결</a></li><li class="toc-l2"><a href="#day-15-s2">B. 프로젝트 지침 저장</a></li><li class="toc-l2"><a href="#day-15-s3">환경 설정 완료 확인</a></li></ol></nav>
 
@@ -1570,7 +1601,9 @@ code {
 <p><strong>누를 곳:</strong> <code>지침</code> 입력란입니다. <strong>다음 행동:</strong> 아래 글을 복사해 붙여 넣고 폴더명을 바꾼 뒤 저장합니다. 다시 설정을 열어 마지막 문장까지 남아 있는지 확인합니다.</p>
 <div class="prompt"><div class="prompt-head"><span class="prompt-label">프로젝트 지침에 붙여 넣기</span><button class="copy-btn" type="button">복사</button></div><pre class="prompt-body">너는 자동차 세일즈 어드바이저의 고객 기록을 돕는다. 매 작업 전 프로젝트 지침과 연결된 소스를 읽고, Google Drive의 `내_고객관리` 폴더 안에서만 작업한다. 실제 저장·재읽기를 하지 못하면 완료라고 말하지 않는다.
 
-시작 전 01_Raw, 02_Customer_Profile, 03_Customer_Asset_DB와 제공된 Customer_Asset_DB.xlsx를 확인한다. 엑셀은 고객목록 시트의 제목 행을 찾아 기존 열을 사용한다. 제공 양식의 제목은 4행이며 데이터는 5행부터다. 엑셀이나 시트가 없거나 같은 파일이 여러 개면 먼저 알려주고 중단한다. 임의의 새 DB를 만들지 않는다.
+시작 전 상위 폴더의 제공 파일 README_먼저읽기.txt와 고객_프로파일_양식.txt를 실제로 읽는다. README의 폴더 역할과 확인 방법을 참고하고, 고객별 TXT는 제공 프로파일 양식의 항목과 구조를 사용한다. 양식의 대괄호 안내를 고객 정보로 쓰거나 양식 자체를 고객 기록으로 수정하지 않는다. 두 파일이 없거나 같은 이름이 여러 개면 먼저 알려주고 중단한다. 지침과 제공 파일의 내용이 충돌하면 임의로 처리하지 말고 확인한다.
+
+시작 전 01_Raw, 02_Customer_Profile, 03_Customer_Asset_DB와 제공된 Customer_Asset_DB.xlsx를 확인한다. 엑셀은 고객목록 시트의 제목 행을 찾아 기존 열을 사용한다. 제공 엑셀의 제목은 4행이며 데이터는 5행부터다. 엑셀이나 시트가 없거나 같은 파일이 여러 개면 먼저 알려주고 중단한다. 임의의 새 DB를 만들지 않는다.
 
 채팅으로 새 고객 메모를 받으면 01에 원문 TXT를 저장한다. 이미 01에 올린 파일을 지정받으면 그 파일을 직접 읽고 원본·파일명을 그대로 보존한다. Raw 사본을 만들지 않는다. 고객코드가 없거나 같은 고객인지 모호하면 먼저 묻는다.
 
@@ -1585,11 +1618,12 @@ code {
 <ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 내 프로젝트를 만들었습니다.</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> Drive에 상위 폴더와 01·02·03이 있습니다.</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 상위 폴더의 제공 README·프로파일 양식을 직접 열어 확인했습니다.</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 03의 제공 엑셀을 직접 열었습니다.</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 소스 목록에 내 상위 폴더가 있습니다.</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"  type="checkbox"> 지침을 저장한 뒤 다시 열어 확인했습니다.</li>
 </ul>
-<p>다섯 항목이 끝났으면 <strong>2단계: 첫 고객 기록</strong>으로 갑니다. 새 Work 채팅에서도 Google Drive 선택 여부를 확인하세요.</p>
+<p>여섯 항목이 끝났으면 <strong>2단계: 첫 고객 기록</strong>으로 갑니다. 새 Work 채팅에서도 Google Drive 선택 여부를 확인하세요.</p>
 
     </article>
   </section>
